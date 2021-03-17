@@ -1,0 +1,92 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700";
+@import "http://fonts.googleapis.com/css?family=Damion";
+@import "../bootstrap.min.css";
+
+.tm-main-section { padding-top: 170px; }
+
+@media only  screen and (max-width: 991px) {
+    .tm-welcome-content { margin-bottom: 250px; }
+    .tm-main-section { padding-top: 200px; }
+    .light { 
+      width: 240px; 
+      height: auto;
+    }
+}
+
+.light-gray-bg { background-color: #e4e4e4; }
+.tm-main-section { padding-top: 170px; }
+.img-thumbnail { padding: 8px; }
+.inline-block { display: inline-block; }
+.shadow-img {
+  background: url(../../assets/img//shadow.png) no-repeat center bottom;
+  padding-bottom: 7px;
+}
+.margin-top-30 { margin-top: 30px; }
+
+.bigger-first-letter { font-size: 60px; }
+.tm-handwriting-font { font-family: 'Damion', cursive; }
+.gold-text { color: #c79c60; }
+
+.tm-popular-item-hr {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .tm-popular-items-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .tm-popular-items-container:last-child { margin-top: 15px; }
+  .tm-popular-item-img { margin-left: 3px; }
+  .tm-popular-item-description {
+    padding: 0 30px 60px;
+    position: relative;
+    text-align: center;
+  }
+.tm-popular-item:hover .tm-popular-item-title { color: #c79c60; }
+.tm-popular-item:hover hr {
+  border-color: #c79c60;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.tm-popular-item {
+    background: url(../../assets/img/popular-item-bg.png) no-repeat;
+    background-size: 100% 100%;
+    max-width: 294px;
+    margin-top: 30px;  
+    margin-bottom: 80px;
+  }
+  .tm-position-relative { position: relative; }
+  .tm-section-header { width: 350px; }
+  .tm-section-header-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .tm-section-header-container { 
+    -webkit-box-align: start; 
+    -webkit-align-items: flex-start; 
+        -ms-flex-align: start; 
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; 
+  }
